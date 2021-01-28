@@ -6,6 +6,7 @@ In this program, we have to manage an array in which producer and consumer are i
 ## To run the program 
 
 $ gcc q1.c -lpthread -o q1
+
 $ ./q1
 											
 ---------------------------------------------------------------
