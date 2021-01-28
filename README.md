@@ -17,6 +17,7 @@ In this problem, we have to use some sempahores which will ensure that Mother ha
 # To run the program 
 
 $ gcc mh.c -lpthread -o mh
+
 $ ./mh 100 
 
 --------------------------------------------------------------										
@@ -27,4 +28,5 @@ In this problem, there are some actors like Passengers, Baggage Handler, Securit
 # To Run the Program 
 
 $ gcc Airline.c -lpthread -o Airline
+
 $ ./Airline 10 3 5 2 
