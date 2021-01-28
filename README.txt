@@ -3,7 +3,7 @@
 ## 1. Bounded-buffer Producer/Consumer problem:
 In this program, we have to manage an array in which producer and consumer are inserting and removing data. So, ensuring that there is no clash between consumer and producer while doing there work we use semaphore for critical section. And also use semaophores to signal consumer and producer to start there work according to conditions. Like Consumer will only work when there is data in shared array and Producer will only work when there is empty space in shared array.And all this semphore singal and wait is controlled by Main Function. 
 
-# To run the program 
+## To run the program 
 
 $ gcc q1.c -lpthread -o q1
 $ ./q1
